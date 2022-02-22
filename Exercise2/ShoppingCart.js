@@ -2,65 +2,65 @@ let products = [
     {
         "tyypi" : "Takki",
         "price" : 199,
-        "image" : 'https://www.xxl.fi/filespin/35371dd89122492d89affe680adade8f?resize=1400,1400&quality=95&bgcolor=efefef',
-        'id' : 1,
-        'numInstock' : 10,
+        "image" : "https://www.xxl.fi/filespin/35371dd89122492d89affe680adade8f?resize=1400,1400&quality=95&bgcolor=efefef",
+        "id" : 1,
+        "numInstock" : 10,
         "Available" : "L.I.M Critus Jacket, miesten kuoritakki, Sininen",
     },
     {
         "tyypi" : "T-paita",
         "price" : 25,
-        "image" : 'https://www.xxl.fi/filespin/b3ebffff7d0f48df9776be3946527964?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 2,
-        'numInstock' : 12,
+        "image" : "https://www.xxl.fi/filespin/b3ebffff7d0f48df9776be3946527964?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 2,
+        "numInstock" : 12,
         "Available" :  "Icon Futura Tee, miesten T-paita, Sininen"
     },
     {
-        "tyypi" : 'Shortsit',
+        "tyypi" : "Shortsit",
         "price" : 20,
-        "image" : 'https://www.xxl.fi/filespin/c746a0b16e8f47e7bff7fcbe34d5b850?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 3,
-        'numInstock' : 20,
+        "image" : "https://www.xxl.fi/filespin/c746a0b16e8f47e7bff7fcbe34d5b850?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 3,
+        "numInstock" : 20,
         "Available" :  "UA Tech Graphic Shorts, miesten treenishortsit, Musta"
     },
     {
-        "tyypi" : 'Kengät',
+        "tyypi" : "Kengät",
         "price" : 40,
         "image" : 'https://www.xxl.fi/filespin/72c92db6e3274362a19afbd6f94f95a4?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 4,
-        'numInstock' : 40,
+        "id" : 4,
+        "numInstock" : 40,
         "Available" :  "Puma Rebound JOY Fur, unisex talvilenkkarit, Musta"
     },
     {
-        "tyypi" : 'Hattu',
+        "tyypi" : "Hattu",
         "price" : 3,
-        "image" : 'https://www.xxl.fi/filespin/feab3c2e62f841338857007ff75fba49?resize=1400,1400&quality=95&bgcolor=efefef',
-        'id' : 5,
-        'numInstock' : 50,
+        "image" : "https://www.xxl.fi/filespin/feab3c2e62f841338857007ff75fba49?resize=1400,1400&quality=95&bgcolor=efefef",
+        "id" : 5,
+        "numInstock" : 50,
         "Available" : "Finland Admiral Fan Caps, unisex lippis, Sininen"
     },
     {
-        "tyypi" : 'Kuoritakki',
+        "tyypi" : "Kuoritakki",
         "price" : 90,
-        "image" : 'https://www.xxl.fi/filespin/6250c610c3704209b2e95801b9716723?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 6,
-        'numInstock' : 60,
+        "image" : "https://www.xxl.fi/filespin/6250c610c3704209b2e95801b9716723?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 6,
+        "numInstock" : 60,
         "Available" : "Velum Jacket, naisten kuoritakki, Musta"
     },
     {
-        "tyypi" : 'Sadetakki',
+        "tyypi" : "Sadetakki",
         "price" : 30,
-        "image" : 'https://www.xxl.fi/filespin/9d016bff772d4e05a2abd7ab7d8cd3fa?resize=317,317&quality=90&bgcolor=efefef',
-        'id' : 7,
-        'numInstock' : 0,
+        "image" : "https://www.xxl.fi/filespin/9d016bff772d4e05a2abd7ab7d8cd3fa?resize=317,317&quality=90&bgcolor=efefef",
+        "id" : 7,
+        "numInstock" : 0,
         "Available" :  "Wings Fleece Rainset, lasten sadetakki ja -housut, Keltainen"
     },
     {
-        "tyypi" : 'Talvitakki',
+        "tyypi" : "Talvitakki",
         "price" : 95,
-        "image" : 'https://www.xxl.fi/filespin/7c3d6417b0db41cdb447806d1c575e8f?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 8,
-        'numInstock' : 45,
+        "image" : "https://www.xxl.fi/filespin/7c3d6417b0db41cdb447806d1c575e8f?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 8,
+        "numInstock" : 45,
         "Available" :  "Luca Puffy Parka, nuorten talviparka, Musta"
     },
     {
@@ -72,27 +72,27 @@ let products = [
         "Available" :  "Essens Mimic Hood, naisten kevyttoppatakki, Purple"
     },
     {
-        "tyypi" : 'Ruskeatakki',
+        "tyypi" : "Ruskeatakki",
         "price" : 65,
-        "image" : 'https://www.xxl.fi/filespin/b4ae9887eb59413db9ec5532cf32465d?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 10,
-        'numInstock' : 100,
+        "image" : "https://www.xxl.fi/filespin/b4ae9887eb59413db9ec5532cf32465d?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 10,
+        "numInstock" : 100,
         "Available" :  "Loma Vista Hooded Jacket, miesten takki, Ruskea"
     },
     {
-        "tyypi" : 'Untuvatakki',
+        "tyypi" : "Untuvatakki",
         "price" : 39,
-        "image" : 'https://www.xxl.fi/filespin/8829ae5ccb9b4136834fff611409238f?resize=317,317&quality=90&bgcolor=efefef',
-        'id' : 11,
-        'numInstock' : 20,
+        "image" : "https://www.xxl.fi/filespin/8829ae5ccb9b4136834fff611409238f?resize=317,317&quality=90&bgcolor=efefef",
+        "id" : 11,
+        "numInstock" : 20,
         "Available" :  "Resolve Down Hoodie, miesten untuvatakki, Sininen"
     },
     {
-        "tyypi" : 'Pyöräilytakki',
+        "tyypi" : "Pyöräilytakki",
         "price" : 80,
-        "image" : 'https://www.xxl.fi/filespin/7dcf9529fd7b407cb339da6607037680?resize=722,722&quality=90&bgcolor=efefef',
-        'id' : 12,
-        'numInstock' : 30,
+        "image" : "https://www.xxl.fi/filespin/7dcf9529fd7b407cb339da6607037680?resize=722,722&quality=90&bgcolor=efefef",
+        "id" : 12,
+        "numInstock" : 30,
         "Available" :  "Me Posta softshell jacket V 2021, unisex pyöräilytakki, Vihreä"
     }
 ]
