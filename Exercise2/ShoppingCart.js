@@ -122,12 +122,12 @@ function renderCart () {
             <div class='item'>
             <div class='description'>   <h2> ${product.tyypi}  </h2>      </div>
             <div class='image'>    <img src="${product.image}" alt="" width='50%' height='80%'>   </div>
-            <div class='price'>  <h3>  Hinta: ${product.price} € </h3> </div>
+            <div class='price'>  <h3>  Hinta (Price): ${product.price} € </h3> </div>
             <div class='available'>  <h3> ${product.Available}   </h3>     </div> 
             <div class='phanduoi'>
             <div> </div>
             <div class='add-to-cart' onclick=addToCart(${product.id})> 
-            <p class='info-cart'>   Add to cart (Lisää)                </p>
+            <p class='info-cart'>   Lisää (Add to cart)              </p>
             <img src="./cart-plus-solid.svg" alt="" height='30px'>
             </div>
             </div>
