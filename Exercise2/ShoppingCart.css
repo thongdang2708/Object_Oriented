@@ -20,7 +20,7 @@
 
     .navbar {
         display: flex;
-        border: 2px grey solid;
+        border: 2px black solid;
         position: relative;
         flex-direction: row;
         align-items: center;
@@ -37,7 +37,7 @@
     }
 
     .shopping-cart-icon-first-part {
-        border: 1.5px purple solid;
+        border: 1.5px black solid;
         width: 30vh;
         display: flex;
         flex-direction: row;
@@ -60,9 +60,9 @@
         height: 40vh;
         padding-left: 20px;
         background-color: #9ED9D5;
-        margin-left: 70px;
+        margin-left: 54px;
         box-shadow: -5px -5px 10px grey, 5px 5px 10px grey;
-        border: 2px grey solid;
+        border: 2px black solid;
     }
 
     .add-to-cart {
@@ -70,7 +70,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        border: 2px purple solid;
+        border: 2px black solid;
         width: 18vh;
         background-color: #FF7087;
         border-radius: 20px;
@@ -95,7 +95,7 @@
         width: 100%;
         position: absolute;
         background-color:#BAFF66;
-        height: 162vh;
+        height: 164vh;
         padding: 15px 8px;
         border: 1px greenyellow solid;
         right: 0;
@@ -149,6 +149,7 @@
 
     .back-button-cart {
         background-color: #FF7087;
+        border: 2px black solid;
         width: 30vh;
         height: 10vh;
         border-radius: 20px;
@@ -172,6 +173,7 @@
 
     .shopping-cart-icon-end-part {
         background-color: #FF7087;
+        border: 2px black solid;
         width: 30vh;
         height: 10vh;
         border-radius: 20px;
@@ -194,7 +196,7 @@
         height: 40vh;
         background-color: white;
         position: absolute;
-        transform: translateX(-38%);
+        transform: translateX(-40.5%);
         font-weight: bold;
     }
 
@@ -232,7 +234,7 @@
         width: 17vh;
     }
     .tulos {
-        margin-top: 53px;
+        margin-top: 70px;
         font-size: 20px;
         font-weight: bold;
     }
@@ -282,5 +284,6 @@
         font-weight: bold;
         cursor: pointer;
         font-size: 20px;
+        border: 2px black solid;
     }
 }
