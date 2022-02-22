@@ -145,7 +145,7 @@ let cart = []
 function addToCart(id) {
     
     if (cart.some(item => item.id === id)) {
-        alert('Samanlainen tuote lisättiin ostoskorille ja määränkasvu voidaan näyttää ostoskorilta!\nThe similar item was added into cart with an increased number!')
+        alert('Samanlainen tuote lisättiin ostoskorille ja määränkasvu voidaan näyttää ostoskärryltä!\nThe similar item was added into cart with an increased number!')
         checkQuantity('plus',id)
     } else {
         let item = products.find(product => product.id === id);
