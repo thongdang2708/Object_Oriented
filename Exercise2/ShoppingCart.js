@@ -308,8 +308,13 @@ function updatePrice () {
 document.querySelector('.purchase').addEventListener('click', function (nft) {
         nft.preventDefault();
 
-        alert('Kiitos Ostoksille\nThank you for your purchase!');
-        location.reload();
+        if (cart.length > 0) {
+            alert('Kiitos Ostoksille\nThank you for your purchase!');
+            location.reload();
+        } else if (cart.length === 0) {
+            alert('Ei mikään korissa\nNothing in a basket!')
+        }
+       
 })
 
 
