@@ -420,7 +420,7 @@ function hallwayArea () {
                         for (let as=0; as<inhallway.length;as++) {
                         if (inhallway[as].name == 'rat')
                             inhallway.splice(as,1);
-                            console.log(inhallway);
+                
                         }
 
                             roomWithNothing().then(vastaus => {
@@ -573,7 +573,6 @@ function chamberArea () {
                     for (let ats=0; ats<inchamber.length;ats++) {
                      if (inchamber[ats].name === 'dragon')
                             inchamber.splice(ats,1);
-                            console.log(inchamber);
                         }
 
                                roomWithNothing().then(vastaus => {
