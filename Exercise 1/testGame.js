@@ -590,10 +590,8 @@ function chamberArea () {
                                 } else if (traloi === 'Hallway') {
 
                                     for (let aer=0;aer<inhallway.length;aer++) {
-                                        if (player.updateEnemyBlood() > 0) {
-                                            player.attackPlayer(inhallway[aer])
-                                        }
-                                        else if (player.updateEnemyBlood() === 0) {
+                                        player.attackPlayer(inhallway[aer])
+                                        if (player.updateEnemyBlood() == 0) {
                                             inhallway.splice(aer,1);
                                         }
                                     }
